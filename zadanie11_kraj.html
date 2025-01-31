@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ <head>
+ <title> zadanie 11</title>
+ <meta charset="utf-8">
+ <script type="text/javascript">
+    function zamknij_okno()
+    {
+    window.close()
+    }
+    function kod11()
+{
+window.open("zadanie11_kraj-KOD.html","kod11","toolbar=no,directories=no,menubar=no,height=400,width=500,top=530,left=200");
+}
+   
+    </script>
+ </head>
+<body>
+<div style="color:green;font-size: 31px;">
+ <script lang="JavaScript">
+var liczba1=prompt("D1=","");
+var liczba2=prompt("D2=","");
+var ile_sekund_kraj;
+ var D1_kraj=parseFloat(liczba1);
+ var D2_kraj=parseFloat(liczba2);
+ ile_sekund_kraj=(D1_kraj-D2_kraj)*24*3600;
+ document.write("D1="+D1_kraj+"D2="+D2_kraj+"<br>")
+ document.write("ile sekund="+ile_sekund_kraj+"s"+ "<br>")
+
+ </script>
+ </div>
+ <input type="button" name="kod11" value="kod11" onclick="kod11(' ')">
+ <input type="button" value="zamknij okno" onclick="zamknij_okno()"/>
+<script type="text/javascript">
+</script>

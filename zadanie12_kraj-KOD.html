@@ -1,0 +1,65 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function zamknij_okno()
+ {
+ window.close()
+ }
+
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="siejka" cols="125" rows="46" readonly>
+    zadanie12
+
+    <!DOCTYPE html>
+    <head>
+    <title> zadanie 12</title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+       function zamknij_okno()
+       {
+       window.close()
+       }
+       function kod11()
+   {
+   window.open("zadanie12_kraj-KOD.html","kod12","toolbar=no,directories=no,menubar=no,height=400,width=500,top=530,left=200");
+   }
+      
+       </script>
+    </head>
+   <body>
+   <div style="color:green;font-size: 31px;">
+       <script lang="JavaScript">
+           var liczba1=prompt("D1=",""); 
+           var liczba3=prompt("G1=","");
+           var liczba2=prompt("D2=","");
+           var liczba4=prompt("G2=","");
+               var dni;
+               var sekundy;
+               var razem;
+           var D1_kraj=parseFloat(liczba1);
+           var D2_kraj=parseFloat(liczba2);
+           var G1_kraj=parseFloat(liczba3);
+           var G2_kraj=parseFloat(liczba4);
+   
+           dni=(D1_kraj-D2_kraj)*24*3600;
+           sekundy=(G1_kraj-G2_kraj)*3600;
+   
+               razem=dni+sekundy;
+   
+           document.write("D1="+D1_kraj+"G1="+G1_kraj+"D2="+D2_kraj+"G2="+G2_kraj+"<br>")
+           document.write("ile sekund="+razem+"s"+ "<br>")
+       </script>
+    </div>
+    <input type="button" name="kod12" value="kod12" onclick="kod12(' ')">
+    <input type="button" value="zamknij okno" onclick="zamknij_okno()"/>
+   <script type="text/javascript">
+   </script></textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="zamknij_okno()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
