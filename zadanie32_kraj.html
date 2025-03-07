@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+ <head>
+ <title> zadanie 32</title>
+ <meta charset="utf-8">
+ <script type="text/javascript">
+    function zamknij_okno()
+    {
+    window.close()
+    }
+    function kod32()
+{
+window.open("zadanie32_kraj-KOD.html","kod32","toolbar=no,directories=no,menubar=no,height650,width=950,top=532,left=200");
+}
+   
+    </script>
+
+
+
+
+<div style="color:green;font-size: 32px;">
+    <script lang="JavaScript">
+        var spodnie = {
+		kolor: 'niebieski',
+		rozmiar: 'XXL',
+		material: 'bawelna',
+		
+        function klient(kolor_k,rozmiar_k,material_k)//początek konstruktora
+{
+this.kolor=kolor_k;
+this.rozmiar=rozmiar_k;
+this.material=material_k;
+}//koniec konstruktora
+
+
+		klient.prototype.wypisz = function ()
+		{
+			alert(this.kolor + ' ' + this.rozmiar+ ' ' + this.material)
+		}
+	}
+
+
+    var spodnie1 = new klient("niebieski", "XL", "bawela"); // nowy obiekt spodnie1
+var spodnie2 = new klient('czarny', 'XXL', 'bawelna');
+spodnie1.wypisz(); // uruchomienie metody wypisz() dotyczącej osoby 1
+spodnie2.wypisz();
+ document.write("dostęp do właściwości"+"<br>");
+// poniżej dostęp do pól osoby1
+ document.write("pierwsze spodnie"+" "+spodnie1.kolor+" "+spodnie1.rozmiar+" "+spodnie1.material);
+
+    </script>
+ </div>
+
+
+</head>
+<body>
+<br>
+ Programowanie obiektowe. <br>
+ Obiekt to spodnie<br>
+ Pola:<br>
+ kolor<br>
+ rozmiar<br>
+ material<br>
+ metoda: pokaz<br>
+ nowe pole to cena <br>
+ nowa metoda to wypisz();<br>
+</body>
+</html>
+
+
+
+ <input type="button" name="kod32" value="kod32" onclick="kod32(' ')">
+ <input type="button" value="zamknij okno" onclick="zamknij_okno()"/>
+<script type="text/javascript">
+</script>

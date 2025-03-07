@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <head>
+ <title> zadanie 16</title>
+ <meta charset="utf-8">
+ <script type="text/javascript">
+    function zamknij_okno()
+    {
+    window.close()
+    }
+    function kod16()
+{
+window.open("zadanie16_kraj-KOD.html","kod16","toolbar=no,directories=no,menubar=no,height650,width=950,top=530,left=200");
+}
+   
+    </script>
+ </head>
+<body>
+
+
+<div style="color:green;font-size: 31px;">
+    <script lang="JavaScript">
+        var liczba1=prompt("podaj a=","");
+        var a_kraj=parseFloat(liczba1);
+        var liczba2=prompt("podaj b=","");
+        var b_kraj=parseFloat(liczba2);
+            document.write("a="+a_kraj+"<br>");
+            document.write("b="+b_kraj+"<br>");
+            document.write("("+a_kraj+"+"+b_kraj+")^3=");
+            document.write(+a_kraj+"^"+"3+3*"+a_kraj+"^2*"+b_kraj+"+3*"+a_kraj+"*"+b_kraj+"^2+"+b_kraj+"^"+"3"+"=");
+            document.write(+a_kraj*a_kraj*a_kraj+3*(a_kraj*a_kraj)*b_kraj+3*a_kraj*(b_kraj*b_kraj)+b_kraj*b_kraj*b_kraj);
+    </script>
+ </div>
+
+
+ <input type="button" name="kod16" value="kod16" onclick="kod16(' ')">
+ <input type="button" value="zamknij okno" onclick="zamknij_okno()"/>
+<script type="text/javascript">
+</script>
